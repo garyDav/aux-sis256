@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<script>
+			function cuadrado(){
+				let n=10;
+				for(let i=1;i<=n;i++){
+					document.write('9');
+				}
+				document.write('<br>');
+				for(let i=1;i<=n-2;i++){
+					document.write('9');
+					for(let i=1;i<=n-2;i++)
+						document.write('8');
+					document.write('9');
+					document.write('<br>');
+				}
+				for(let i=1;i<=n;i++){
+					document.write('9');
+				}
+				document.write('<br>');
+			}
+			
+			function diagonal(){
+				let n=10;
+				for(let j=n;j>=1;j--){
+					for(let i=1;i<=j-1;i++)
+						document.write('8');
+					document.write('@');
+					document.write('<br>');
+				}
+			}
+			cuadrado();
+			diagonal();
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
