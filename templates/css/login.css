@@ -35,7 +35,6 @@ a:link, a:visited, a:active {
 }
 .login__container {
   border-radius: 40px;
-  border: 2px solid white;
   color: white;
   min-height: 700px;
   width: 100%;
@@ -95,6 +94,7 @@ a:link, a:visited, a:active {
   border-right: 0px;
   border-top: 0px;
   border-bottom: 2px solid white;
+  color: white;
   font-family: 'Muli', sans-serif;
   font-size: 16px;
   margin-bottom: 20px;
@@ -102,10 +102,57 @@ a:link, a:visited, a:active {
   outline: none;
   height: 50px;
 }
+::placeholder {
+  color: white;
+}
 .button {
-
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  height: 50px;
+  margin: 10px 0px;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 50px;
+}
+.footer {
+  background-color: #ab88ff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-top: 1px solid white;
+  height: 100px;
+  width: 100%;
+}
+.footer a {
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
 }
 
+@media only screen and (min-width: 600px) {
+  .login__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    padding: 60px 68px 40px;
+    width: 300px;
+  }
+  .footer {
+    flex-direction: row;
+    justify-content: flex-start;
+    border: none;
+  }
+}
 
 
 
