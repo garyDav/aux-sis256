@@ -3,7 +3,7 @@
 ## Contenido de la materia
 
 1. [Introducción](./Intro.md)
-2. [Templates "Código de plantillas"](./templates)
+2. [Templates "Código de plantillas"](https://github.com/garyDav/aux-sis256/tree/master/templates)
 
 ### Materiales:
 
